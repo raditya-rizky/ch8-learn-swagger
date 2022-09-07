@@ -57,7 +57,7 @@ exports.update = async (req, res) => {
 
   if (!title || !body) {
     return res.status(400).json({
-      message: "Failed to create new article",
+      message: "Failed to update this article",
     });
   }
 
